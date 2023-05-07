@@ -1,0 +1,18 @@
+main {
+    flex: 1;
+    margin-left: 350px;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*para que fique um ao lado do outro*/
+    gap: 20px;
+    list-style: none;
+}
+
+@media (max-width: 600px) {
+    main ul {
+    grid-template-columns: 1fr;
+    } 
+}
+
